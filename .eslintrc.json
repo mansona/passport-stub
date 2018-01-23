@@ -1,11 +1,18 @@
 {
   "env": {
     "node": true
-    },
-  "extends": "airbnb-base",
+  },
+  "extends": "standard",
   "rules": {
     "complexity": 2,
-    "max-statements": [ "error", 15 ],
-    "no-underscore-dangle": 0
+    "no-underscore-dangle": 0,
+    "max-statements": [
+      "error",
+      15
+    ],
+    "semi": [
+      2,
+      "always"
+    ]
   }
 }
